@@ -1,0 +1,29 @@
+html:root{--felt:#10231c;--paper:#f2ead6;--ink:#1b1511;--text:#ece5d3;--mute:#93a89d;--line:rgba(236,229,211,.16);--accent:#c8402a;
+--s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--r:10px;
+--felt2:#10231c;--card:#f2ead6;--tx:#ece5d3;--red:#c8402a;--brass:#ece5d3}
+html body{background:var(--felt);font-family:'Hanken Grotesk',system-ui,sans-serif;font-size:17px;line-height:1.5}
+html body button,html body input{font-family:inherit;border-radius:var(--r)}
+html h1,html h2,html .q,html .turn,html .wm,html .deck b,html .sc .pt,html .stamp,html .av,html .sc .rk{font-family:Gloock,Georgia,serif;font-weight:400;font-style:normal}
+html h1{font-size:40px;line-height:1.05;margin:var(--s6) 0 var(--s2)}
+html #app{padding:var(--s4) var(--s4) var(--s7)}
+html .sub,html .mute{color:var(--mute)}
+html .pnl{background:none;border:0;border-top:1px solid var(--line);border-radius:0;padding:var(--s5) 0;margin:0}
+html .pnl h2{font-size:22px}
+html .pnl h2 small{font-family:inherit}
+html button{margin:var(--s2) 0;padding:var(--s3) var(--s4)}
+html button.go{background:var(--accent);border-color:var(--accent);color:#fff}
+html button.br{background:var(--paper);border-color:var(--paper);color:var(--ink)}
+html button.on{border-color:var(--text);background:rgba(236,229,211,.1);color:var(--text)}
+html .wm{color:var(--text);font-size:24px}
+html .wm i{color:var(--accent)}
+html .card{border-radius:var(--r);margin:var(--s5) 0}
+html .q{font-size:28px;line-height:1.2}
+html .stamp{color:var(--accent);border-color:var(--accent);border-radius:var(--r)}
+html .deck{border-radius:var(--r);margin:var(--s4) 0}
+html .deck:nth-of-type(odd),html .deck:nth-of-type(even){transform:none}
+html .bar{background:var(--text);border-radius:var(--r)}
+html .sc .pt{font-size:28px;color:var(--text)}
+html .pr,html .sc{padding:var(--s3) 0;border-color:var(--line)}
+html .code{border-radius:var(--r);border-color:var(--line)}
+html .toast{background:var(--ink);border:1px solid var(--line);border-radius:var(--r)}
+html button:focus-visible,html input:focus-visible{outline:2px solid var(--text);outline-offset:2px}
